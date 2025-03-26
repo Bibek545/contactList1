@@ -15,3 +15,18 @@ displayAppScreen = () => {
 
 };
 
+
+const contactIcon = document.querySelector(".icon");
+// console.log(contactIcon);
+
+contactIcon.addEventListener("click", (e) => {
+    displayContactScreen();
+
+});
+
+displayContactScreen = () => {
+    document.querySelector(".appScreen").style.display = "none";
+
+    document.querySelector(".contactListScreen").style.display = "block";
+
+}
