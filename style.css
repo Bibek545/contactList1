@@ -58,3 +58,9 @@ a {
 .appScreen {
     background: #464646 ;
 }
+
+.scroll-box {
+    height: 470px; /* or any height that fits within your phone screen */
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
